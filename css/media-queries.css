@@ -10,8 +10,8 @@ body{
 .alert-info {
     background-color: lightcyan;
     text-align: center;
-    padding: 2em
-;
+    padding: 2em;
+    border: 1px solid black;
 }
 
 h1,
@@ -42,7 +42,9 @@ img,
    align-items: center;
    margin: 0 1.5em;
 }
-
+h1 {
+    font-size: 3em;
+}
 @media screen and (min-width:500px) {
 
     body {
@@ -60,7 +62,7 @@ img,
 h1 {
     /*display: flex;*/
     justify-content: flex-start;
-
+    font-size: 3em;
 }
 ul li {
     display: inline;
